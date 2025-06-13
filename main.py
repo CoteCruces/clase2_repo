@@ -21,6 +21,9 @@ while True:
     elif opcion == 3:
         resultado = num1 * num2
         print(f"El resultado es {resultado}")
+        
+    elif opcion == 4:
+        print ("No se puede dividir por cero")
     
     elif opcion == 5:
         break
