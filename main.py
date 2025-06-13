@@ -17,6 +17,10 @@ while True:
     elif opcion == 2:
         resultado = num1 - num2
         print(f"El resultado es {resultado}")
+        
+    elif opcion == 3:
+        resultado = num1 * num2
+        print(f"El resultado es {resultado}")
     
     elif opcion == 5:
         break
